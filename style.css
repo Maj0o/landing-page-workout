@@ -1,9 +1,27 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 1.25rem;
+  }
+  .overlay .closebtn {
+    font-size: 2.25rem;
+    top: 1em;
+    right: 2em;
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
+  header {
+    padding: 1em;
+    text-align: right;
+  }
+
+  /* hamburger menu */
   .overlay {
     height: 100%;
     width: 0;
@@ -22,13 +40,13 @@
     top: 25%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 1em;
   }
 
   .overlay a {
-    padding: 8px;
+    padding: .2em;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 2rem;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -41,19 +59,18 @@
 
   .overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+    top: .2em;
+    right: .25em;
+    font-size: 4rem;
   }
 
-  @media screen and (max-height: 450px) {
-    .overlay a {
-      font-size: 20px;
-    }
-    .overlay .closebtn {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
-    }
+  .hero-text {
+      text-align: center;
+  }
+
+  .hero-paragraph {
+      padding: 1em;
+      font-size: 1.25rem;
+      opacity: 0.5;
   }
 }

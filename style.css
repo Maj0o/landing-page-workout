@@ -85,7 +85,7 @@ body {
   .hero-paragraph {
     padding: 1em;
     font-size: 1.25rem;
-    opacity: 0.5;
+    opacity: 0.9;
   }
 
   button > a {
@@ -93,19 +93,12 @@ body {
     color: white;
   }
 
-  .btn {
-    padding: 0.4em 1em;
-    font-size: 1.1rem;
-    border-radius: 1em;
-    background-color: var(--secundairy-color);
-  }
-
   .hero-container {
-    background-color: #5500ff;
+    background-color: var(--main-bg-color);
     padding: 0.25em;
   }
 
-  .custom-shape-divider-bottom-1642672883 {
+  .wave-bottom {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -115,18 +108,18 @@ body {
     transform: rotate(180deg);
   }
 
-  .custom-shape-divider-bottom-1642672883 svg {
+  .wave-bottom svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 150px;
   }
 
-  .custom-shape-divider-bottom-1642672883 .shape-fill {
+  .wave-bottom .shape-fill {
     fill: #ffffff;
   }
 
-  .custom-shape-divider-bottom-1642672883 svg {
+  .wave-bottom svg {
     width: calc(100% + 1.3px);
     height: 50px;
   }
@@ -134,15 +127,45 @@ body {
     position: relative;
   }
 
-  .header-container {
-    background-color: #fff;
+  .wave-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
   }
 
-  .header-features {
-    text-align: center;
+  .wave-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+  }
+
+  .wave-top .shape-fill {
+    fill: white;
+  }
+
+  .wave-top svg {
+    width: calc(100% + 1.3px);
+    height: 75px;
+  }
+
+  .main-container {
+    background-color: var(--secondary-color);
     color: white;
   }
 
-  .box {
+  #features {
+    text-align: center;
+    color: white;
+    padding: 2em;
+  }
+
+  .main-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }

@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="/workout-website/script.js" defer></script>
   </head>
   <body>
@@ -18,8 +19,8 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
     <a href="#">Home</a>
-    <a href="#">Features</a>
-    <a href="#">About</a>
+    <a href="#features">Features</a>
+    <a href="#about-us">About</a>
     <a href="#">Blog</a>
     <a href="#">Contact</a>
   </div>
@@ -28,7 +29,7 @@
 </header>
 <div class="hero-container">
   <div class="hero-text">
-    <h1>The #1 website to track your workouts</h1>
+    <h1>The #1 app to track your workouts</h1>
     <p class="hero-paragraph">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sunt,
       cum cupiditate tenetur ducimus ut. Accusamus suscipit, perferendis
@@ -38,7 +39,7 @@
   </div>
 </div>
 <section class="wrapper">
-<div class="custom-shape-divider-bottom-1642672883">
+<div class="wave-bottom">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
     </svg>
@@ -46,20 +47,27 @@
 </section>
 <main>
   <div class="main-container">
-  <h2 class="header-features">Features</h2>
-  <section>
-    <div class="box">
-      <h3>Program your own routine</h3>
-
-    </div>
-    <div class="box">
-      <h3>Keep track of progress</h3>
-    </div>
-    <div class="box">
-      <h3></h3>
-    </div>
+    <section class="wrapper">
+    <div class="wave-top">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+  </section>
+    <h1 id="features">Features</h1>
+    <section class="main-content">
+    <h2>Sync your data on all devices</h2>
+      <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_qef87ngc.json"  background="transparent"  speed="1"  style="width: 50vw; height: 50vh;" loop autoplay></lottie-player>
+      <h2>Keep track of progress</h2>
+    <lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_j6bwzbtp.json"  background="transparent"  speed="1"  style="width: 50vw; height: 50vh;" loop autoplay></lottie-player>
+      <h2>Add your own workouts or use templates</h2>
+      <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_kq5rGs.json"  background="transparent"  speed="1"  style="width: 50vw; height: 50vh;"  loop autoplay></lottie-player>
   </section>
   </div>
+
+  <section>
+    <h1 id="about-us">About us</h1>
+  </section>
     </main>
   </body>
 </html>

@@ -171,11 +171,6 @@ body {
     padding: 1em;
   }
 
-  #about-us {
-    text-align: center;
-    color: white;
-  }
-
   .custom-shape-divider-bottom-1642682310 {
     position: absolute;
     bottom: 0;
@@ -202,17 +197,41 @@ body {
     height: 200px;
   }
 
-  .spacer-top-blue {
+  .spacer-bottom {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/wave.svg);
+    background-image: url(/workout-website/wave-haikei.svg);
   }
 
-  .spacerpurple {
+  .spacer-top-purple {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(/workout-website/col-wave.svg);
+  }
+
+  .spacer-top-blue {
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/spacer-top-blue.svg);
+  }
+
+  #about-us {
+    text-align: center;
+    color: white;
+    background-color: var(--main-bg-color);
+  }
+
+  .about-us-container {
+    background-color: var(--main-bg-color);
+    padding: 0.1em;
+  }
+
+  .about-us-paragraph {
+    color: white;
+    text-align: center;
+    opacity: .85;
   }
 }

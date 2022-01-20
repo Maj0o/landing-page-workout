@@ -224,21 +224,34 @@ body {
 
   .about-us-container {
     background-color: var(--main-bg-color);
-    
   }
 
   .about-us-paragraph {
     color: white;
     text-align: center;
-    opacity: .85;
+    opacity: 0.85;
     padding: 1em;
   }
 
   #contact {
     color: white;
     text-align: center;
-    padding: 1em;
     background-color: var(--secondary-color);
+    padding: 1em;
   }
 
+  .contactspacer {
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/col-wave.svg);
+  }
+
+  .contact-container {
+    background-color: var(--secondary-color);
+    text-align: left;
+  }
+
+  
+ 
 }

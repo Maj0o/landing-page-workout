@@ -1,7 +1,19 @@
-* {
-  margin: 0;
+html {
   box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
   font-family: "Lato", sans-serif;
+}
+body {
+  margin: 0;
+}
+
+:root {
+  --main-bg-color: #5500ff;
+  --secondary-color: #0055ff;
 }
 
 @media screen and (max-height: 450px) {
@@ -15,10 +27,11 @@
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
   header {
     padding: 1em;
     text-align: right;
+    background-color: var(--main-bg-color);
   }
 
   /* hamburger menu */
@@ -44,7 +57,7 @@
   }
 
   .overlay a {
-    padding: .2em;
+    padding: 0.2em;
     text-decoration: none;
     font-size: 2rem;
     color: #818181;
@@ -59,18 +72,77 @@
 
   .overlay .closebtn {
     position: absolute;
-    top: .2em;
-    right: .25em;
+    top: 0.2em;
+    right: 0.25em;
     font-size: 4rem;
   }
 
   .hero-text {
-      text-align: center;
+    text-align: center;
+    color: white;
   }
 
   .hero-paragraph {
-      padding: 1em;
-      font-size: 1.25rem;
-      opacity: 0.5;
+    padding: 1em;
+    font-size: 1.25rem;
+    opacity: 0.5;
+  }
+
+  button > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .btn {
+    padding: 0.4em 1em;
+    font-size: 1.1rem;
+    border-radius: 1em;
+    background-color: var(--secundairy-color);
+  }
+
+  .hero-container {
+    background-color: #5500ff;
+    padding: 0.25em;
+  }
+
+  .custom-shape-divider-bottom-1642672883 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1642672883 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+  }
+
+  .custom-shape-divider-bottom-1642672883 .shape-fill {
+    fill: #ffffff;
+  }
+
+  .custom-shape-divider-bottom-1642672883 svg {
+    width: calc(100% + 1.3px);
+    height: 50px;
+  }
+  .wrapper {
+    position: relative;
+  }
+
+  .header-container {
+    background-color: #fff;
+  }
+
+  .header-features {
+    text-align: center;
+    color: white;
+  }
+
+  .box {
   }
 }

@@ -217,6 +217,20 @@ body {
     background-image: url(/workout-website/spacer-top-blue.svg);
   }
 
+  .spacer-top-purple {
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/spacer-top-purple.svg);
+  }
+
+  .spacer-top-purple-features {
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/spacer-top-purple-features.svg);
+  }
+
   #about-us {
     text-align: center;
     color: white;
@@ -230,14 +244,13 @@ body {
     color: white;
     text-align: center;
     opacity: 0.85;
-    padding: 1em;
+    padding: 2em;
   }
 
   #contact {
     color: white;
     text-align: center;
     background-color: var(--secondary-color);
-    padding: 1em;
   }
 
   .contactspacer {
@@ -250,8 +263,49 @@ body {
   .contact-container {
     background-color: var(--secondary-color);
     text-align: left;
+    color: white;
   }
 
-  
- 
+  form {
+    background-color: var(--main-bg-color);
+    padding: 1em;
+    font-size: 1.1rem;
+  }
+
+  #name,
+  #email,
+  #subject,
+  #description {
+    border-radius: 0.5em;
+  }
+
+  #contact-subtext {
+    text-align: center;
+  }
+
+  .submit {
+    padding: 0.25em 1em;
+    border-radius: 0.5em;
+  }
+  .spacer-bottom-footer {
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/spacer-top-footer.svg);
+  }
+
+  footer {
+    background-color: var(--secondary-color);
+  }
+
+  footer > nav {
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  footer > nav > a {
+    color: white;
+    text-decoration: none;
+  }
 }

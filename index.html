@@ -48,7 +48,7 @@
     <div class="spacer-bottom"></div>
     <main>
       <div class="main-container">
-        <div class="spacer-top-purple"></div>
+        <div class="spacer-top-purple-features"></div>
         <h2 id="features">Features</h2>
         <section class="main-content">
           <h3>Sync your data on all devices</h3>
@@ -122,15 +122,30 @@
         <!-- Spacer for contact form -->
 
         <h2 id="contact">Contact</h2>
+        <div class="spacer-top-purple"></div>
         <form>
+          <h4 id="contact-subtext">If you have questions about the app or a related inquiry feel free to contact me down below!</h4>
           <label for="name">Name:</label><br />
-          <input type="text" id="name" name="name" /><br />
+          <input type="text" id="name" name="name" required value="Name" /><br />
           <label for="email">E-mail:</label><br />
-          <input type="email" id="email" name="email" /><br />
+          <input type="email" id="email" name="email" required value="Email" maxlength="30" /><br />
+          <label for="subject">Subject:</label></br />
+          <input type="text" name="subject" id="subject" required value="Subject"> </br />
           <label for="description">Description:</label><br />
-          <input type="text" id="description" name="description" /><br />
+          <textarea name="description" id="description" cols="30" rows="4" required></textarea> <br />
+          <button type="submit" class="submit">Submit</button>
         </form>
       </div>
     </main>
+    <div class="spacer-bottom"></div>
+    <footer>
+      <div class="spacer-bottom-footer"></div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </footer>
   </body>
 </html>

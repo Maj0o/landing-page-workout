@@ -312,7 +312,14 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .overlay .closebtn  {
+  .overlay .closebtn {
     display: none;
+  }
+
+  span {
+    display: none;
+  }
+
+  .overlay-content {
   }
 }

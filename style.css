@@ -312,7 +312,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .overlay .closebtn {
+  .closebtn {
     display: none;
   }
 
@@ -320,6 +320,14 @@ body {
     display: none;
   }
 
+  a {
+    text-decoration: none;
+    color: white;
+  }
   .overlay-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    background-color: var(--main-bg-color);
   }
 }

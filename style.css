@@ -89,6 +89,10 @@ body {
     opacity: 0.9;
   }
 
+  .hero-image {
+    display: none;
+  }
+
   button > a {
     text-decoration: none;
     color: white;
@@ -311,6 +315,8 @@ body {
   }
 }
 
+/* Desktop version */
+
 @media screen and (min-width: 768px) {
   .closebtn {
     display: none;
@@ -327,7 +333,247 @@ body {
   .overlay-content {
     display: flex;
     justify-content: space-evenly;
-    padding: 1em;
+    padding: 2em;
+    font-size: 1.5rem;
     background-color: var(--main-bg-color);
+  }
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+  .hero-text {
+    text-align: center;
+    color: white;
+    font-size: 1.25rem;
+  }
+
+  .hero-paragraph {
+    padding: 1em;
+    font-size: rem;
+    opacity: 0.9;
+  }
+
+  button > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .hero-container {
+    background-color: var(--main-bg-color);
+    padding: 1em;
+  }
+
+  .wave-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .wave-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+  }
+
+  .wave-bottom .shape-fill {
+    fill: #ffffff;
+  }
+
+  .wave-bottom svg {
+    width: calc(100% + 1.3px);
+    height: 50px;
+  }
+  .wrapper {
+    position: relative;
+  }
+
+  .wave-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .wave-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+  }
+
+  .wave-top .shape-fill {
+    fill: white;
+  }
+
+  .wave-top svg {
+    width: calc(100% + 1.3px);
+    height: 75px;
+  }
+
+  .main-container {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+
+  #features {
+    text-align: center;
+    color: white;
+    padding: 2em;
+  }
+
+  .main-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .custom-shape-divider-bottom-1642682310 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1642682310 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+  }
+
+  .custom-shape-divider-bottom-1642682310 .shape-fill {
+    fill: #ffffff;
+  }
+
+  .custom-shape-divider-bottom-1642682310 svg {
+    width: calc(100% + 1.3px);
+    height: 200px;
+  }
+
+  .spacer-bottom {
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/wave-haikei.svg);
+  }
+
+  .spacer-top-purple {
+    aspect-ratio: 7 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/col-wave.svg);
+  }
+
+  .spacer-top-blue {
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/spacer-top-blue.svg);
+  }
+
+  .spacer-top-purple {
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/spacer-top-purple.svg);
+  }
+
+  .spacer-top-purple-features {
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/spacer-top-purple-features.svg);
+  }
+
+  #about-us {
+    text-align: center;
+    color: white;
+  }
+
+  .about-us-container {
+    background-color: var(--main-bg-color);
+  }
+
+  .about-us-paragraph {
+    color: white;
+    text-align: center;
+    opacity: 0.85;
+    padding: 2em;
+  }
+
+  #contact {
+    color: white;
+    text-align: center;
+    background-color: var(--secondary-color);
+  }
+
+  .contactspacer {
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/col-wave.svg);
+  }
+
+  .contact-container {
+    background-color: var(--secondary-color);
+    text-align: left;
+    color: white;
+  }
+
+  form {
+    background-color: var(--main-bg-color);
+    padding: 1em;
+    font-size: 1.1rem;
+  }
+
+  #name,
+  #email,
+  #subject,
+  #description {
+    border-radius: 0.5em;
+  }
+
+  #contact-subtext {
+    text-align: center;
+  }
+
+  .submit {
+    padding: 0.25em 1em;
+    border-radius: 0.5em;
+  }
+  .spacer-bottom-footer {
+    aspect-ratio: 900/300;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/workout-website/spacer-top-footer.svg);
+  }
+
+  footer {
+    background-color: var(--secondary-color);
+  }
+
+  footer > nav {
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  footer > nav > a {
+    color: white;
+    text-decoration: none;
   }
 }

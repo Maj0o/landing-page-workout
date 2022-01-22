@@ -9,6 +9,7 @@ html {
 }
 body {
   margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -431,10 +432,14 @@ body {
     padding: 2em;
   }
 
+  .section-text {
+    font-size: 5rem;
+  }
+
   .main-content {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
     padding: 1em;
   }
 
@@ -536,8 +541,8 @@ body {
 
   form {
     background-color: var(--main-bg-color);
-    padding: 1em;
-    font-size: 1.1rem;
+    padding: .5em;
+    font-size: 1.75rem;
   }
 
   #name,
@@ -545,20 +550,24 @@ body {
   #subject,
   #description {
     border-radius: 0.5em;
+    font-size: 1.5rem;
   }
 
   #contact-subtext {
     text-align: center;
+    padding-bottom: 2em;
   }
 
   .submit {
-    padding: 0.25em 1em;
+    padding: 0.75em 1.75em;
     border-radius: 0.5em;
+    font-size: 1.5rem;
   }
   .spacer-bottom-footer {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--main-bg-color);
     background-image: url(/workout-website/spacer-top-footer.svg);
   }
 
@@ -567,8 +576,8 @@ body {
   }
 
   footer > nav {
-    padding: 1em;
     display: flex;
+    padding: 1em;
     justify-content: space-evenly;
   }
 

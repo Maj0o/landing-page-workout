@@ -512,10 +512,11 @@ body {
   .about-us-container {
     background-color: var(--main-bg-color);
   }
+  
+
 
   .about-us-paragraph {
     color: white;
-    text-align: center;
     opacity: 0.85;
     padding: 2em;
   }
@@ -535,7 +536,6 @@ body {
 
   .contact-container {
     background-color: var(--secondary-color);
-    text-align: left;
     color: white;
   }
 

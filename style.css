@@ -346,7 +346,6 @@ body {
 }
 
   .hero-text {
-    text-align: center;
     color: white;
     font-size: 1.25rem;
   }
@@ -518,7 +517,7 @@ body {
   .about-us-paragraph {
     color: white;
     opacity: 0.85;
-    padding: 2em;
+    padding: 1em;
   }
 
   #contact {
@@ -542,7 +541,8 @@ body {
   form {
     background-color: var(--main-bg-color);
     padding: .5em;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   #name,
@@ -550,7 +550,8 @@ body {
   #subject,
   #description {
     border-radius: 0.5em;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    text-align: center;
   }
 
   #contact-subtext {
@@ -577,12 +578,13 @@ body {
 
   footer > nav {
     display: flex;
-    padding: 1em;
     justify-content: space-evenly;
   }
 
   footer > nav > a {
     color: white;
+        padding: 2em;
+    font-size: 1.5rem;
     text-decoration: none;
   }
 }

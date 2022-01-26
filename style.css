@@ -206,35 +206,35 @@ body {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/wave-haikei.svg);
+    background-image: url(./SVGS/wave-haikei.svg);
   }
 
   .spacer-top-purple {
     aspect-ratio: 7 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/col-wave.svg);
+    background-image: url(./SVGS/col-wave.svg);
   }
 
   .spacer-top-blue {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/spacer-top-blue.svg);
+    background-image: url(./SVGS/spacer-top-blue.svg);
   }
 
   .spacer-top-purple {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/spacer-top-purple.svg);
+    background-image: url(./SVGS/spacer-top-purple.svg);
   }
 
   .spacer-top-purple-features {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/spacer-top-purple-features.svg);
+    background-image: url(./SVGS/spacer-top-purple-features.svg);
   }
 
   #about-us {
@@ -263,7 +263,7 @@ body {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/col-wave.svg);
+    background-image: url(./SVGS/col-wave.svg);
   }
 
   .contact-container {
@@ -297,7 +297,7 @@ body {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/spacer-top-footer.svg);
+    background-image: url(./SVGS/spacer-top-footer.svg);
   }
 
   footer {
@@ -472,35 +472,35 @@ body {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/wave-haikei.svg);
+    background-image: url(./SVGS/wave-haikei.svg);
   }
 
   .spacer-top-purple {
     aspect-ratio: 7 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/col-wave.svg);
+    background-image: url(./SVGS/col-wave.svg);
   }
 
   .spacer-top-blue {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/spacer-top-blue.svg);
+    background-image: url(./SVGS/spacer-top-blue.svg);
   }
 
   .spacer-top-purple {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/spacer-top-purple.svg);
+    background-image: url(./SVGS/spacer-top-purple.svg);
   }
 
   .spacer-top-purple-features {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/spacer-top-purple-features.svg);
+    background-image: url(./SVGS/spacer-top-purple-features.svg);
   }
 
   #about-us {
@@ -528,7 +528,7 @@ body {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/SVGS/col-wave.svg);
+    background-image: url(./SVGS/col-wave.svg);
   }
 
   .contact-container {
@@ -567,7 +567,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--main-bg-color);
-    background-image: url(/SVGS/spacer-top-footer.svg);
+    background-image: url(./SVGS/spacer-top-footer.svg);
   }
 
   footer {

@@ -206,35 +206,35 @@ body {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/wave-haikei.svg);
+    background-image: url(/SVGS/wave-haikei.svg);
   }
 
   .spacer-top-purple {
     aspect-ratio: 7 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/col-wave.svg);
+    background-image: url(/SVGS/col-wave.svg);
   }
 
   .spacer-top-blue {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/spacer-top-blue.svg);
+    background-image: url(/SVGS/spacer-top-blue.svg);
   }
 
   .spacer-top-purple {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/spacer-top-purple.svg);
+    background-image: url(/SVGS/spacer-top-purple.svg);
   }
 
   .spacer-top-purple-features {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/spacer-top-purple-features.svg);
+    background-image: url(/SVGS/spacer-top-purple-features.svg);
   }
 
   #about-us {
@@ -263,7 +263,7 @@ body {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/col-wave.svg);
+    background-image: url(/SVGS/col-wave.svg);
   }
 
   .contact-container {
@@ -297,7 +297,7 @@ body {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/spacer-top-footer.svg);
+    background-image: url(/SVGS/spacer-top-footer.svg);
   }
 
   footer {
@@ -339,11 +339,11 @@ body {
     background-color: var(--main-bg-color);
   }
 
-.hero-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+  .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   .hero-text {
     color: white;
@@ -472,35 +472,35 @@ body {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/wave-haikei.svg);
+    background-image: url(/SVGS/wave-haikei.svg);
   }
 
   .spacer-top-purple {
     aspect-ratio: 7 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/col-wave.svg);
+    background-image: url(/SVGS/col-wave.svg);
   }
 
   .spacer-top-blue {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/spacer-top-blue.svg);
+    background-image: url(/SVGS/spacer-top-blue.svg);
   }
 
   .spacer-top-purple {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/spacer-top-purple.svg);
+    background-image: url(/SVGS/spacer-top-purple.svg);
   }
 
   .spacer-top-purple-features {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/spacer-top-purple-features.svg);
+    background-image: url(/SVGS/spacer-top-purple-features.svg);
   }
 
   #about-us {
@@ -511,8 +511,6 @@ body {
   .about-us-container {
     background-color: var(--main-bg-color);
   }
-  
-
 
   .about-us-paragraph {
     color: white;
@@ -530,7 +528,7 @@ body {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/workout-website/col-wave.svg);
+    background-image: url(/SVGS/col-wave.svg);
   }
 
   .contact-container {
@@ -540,7 +538,7 @@ body {
 
   form {
     background-color: var(--main-bg-color);
-    padding: .5em;
+    padding: 0.5em;
     font-size: 1.5rem;
     text-align: center;
   }
@@ -569,7 +567,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--main-bg-color);
-    background-image: url(/workout-website/spacer-top-footer.svg);
+    background-image: url(/SVGS/spacer-top-footer.svg);
   }
 
   footer {
@@ -583,7 +581,7 @@ body {
 
   footer > nav > a {
     color: white;
-        padding: 2em;
+    padding: 2em;
     font-size: 1.5rem;
     text-decoration: none;
   }

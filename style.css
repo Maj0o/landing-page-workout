@@ -206,21 +206,21 @@ body {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./SVGS/wave-haikei.svg);
+    background-image: url(./SVGS/wave-haikei.svg?sanitize=true);
   }
 
   .spacer-top-purple {
     aspect-ratio: 7 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./SVGS/col-wave.svg);
+    background-image: url(./SVGS/col-wave.svg?sanitize=true);
   }
 
   .spacer-top-blue {
     aspect-ratio: 900/300;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./SVGS/spacer-top-blue.svg);
+    background-image: url(./SVGS/spacer-top-blue.svg?sanitize=true);
   }
 
   .spacer-top-purple {

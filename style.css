@@ -430,7 +430,7 @@ body {
   #features {
     text-align: center;
     color: white;
-    padding: 2em;
+    padding: 1em;
   }
 
   .section-text {
@@ -508,6 +508,7 @@ body {
   #about-us {
     text-align: center;
     color: white;
+    padding: 1em;
   }
 
   .about-us-container {
@@ -517,6 +518,7 @@ body {
   .about-us-paragraph {
     color: white;
     opacity: 0.85;
+    text-align: center;
     padding: 1em;
   }
 

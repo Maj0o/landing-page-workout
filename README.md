@@ -1,5 +1,5 @@
 ## landing-page-workout
 
-- Learned how to use SVGs to extend illustrations;
-- Used media queries to make the website responsive;
-- Mobile first design.
+- Learned how to use SVGs and to extend a plain background
+- Used media queries to make the website responsive
+- Mobile first design
